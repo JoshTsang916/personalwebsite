@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>林育英｜企劃與整合行銷｜專業個人簡介</title>
+  <meta name="description" content="林育英—企劃與整合行銷、在地創生與大型活動企劃。專業年表、專案成果與研究興趣。" />
+  <style>
+    :root{
+      --bg:#0f1220; --card:#171b2f; --muted:#aeb6d3; --text:#eef2ff;
+      --brand:#6cc3ff; --brand-2:#9d7bff; --accent:#24e7c2;
+      --shadow: 0 10px 30px rgba(0,0,0,.35); --radius:20px;
+    }
+    html,body{height:100%}
+    body{margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC","PingFang TC","Hiragino Sans","Microsoft JhengHei",Arial,sans-serif; background: radial-gradient(1200px 800px at 20% -10%, rgba(108,195,255,.15), transparent 60%), radial-gradient(1000px 700px at 120% 10%, rgba(157,123,255,.18), transparent 60%), linear-gradient(180deg, #0c0f1a, #0f1220 60%); color:var(--text); letter-spacing:.2px}
+    .wrap{max-width:1200px; margin:0 auto; padding:28px 22px 80px}
+
+    .hero{display:grid; grid-template-columns: 1fr .9fr; gap:28px; align-items:start}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow); position:relative; overflow:hidden}
+    .hero-card:before{content:""; position:absolute; inset:-2px; background: conic-gradient(from 180deg, rgba(108,195,255,.12), rgba(157,123,255,.12), rgba(36,231,194,.12), rgba(108,195,255,.12)); filter: blur(40px); opacity:.32; z-index:0}
+    .hero-card>*{position:relative; z-index:1}
+
+    .tag{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; background: rgba(108,195,255,.14); border:1px solid rgba(108,195,255,.35); color:#dff1ff; font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.75px}
+    .tag .dot{width:7px; height:7px; border-radius:50%; background:var(--accent); box-shadow:0 0 0 4px rgba(36,231,194,.12)}
+
+    h1{margin:10px 0 4px; font-size:38px; line-height:1.15; letter-spacing:.5px}
+    .subtitle{color:var(--muted); font-size:15px; margin:0 0 14px}
+
+    .quick{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px}
+    .chip{padding:7px 10px; border-radius:999px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08); color:#d7def5; font-size:12.5px}
+
+    .cta{margin-top:12px; display:flex; gap:10px; flex-wrap:wrap}
+    .btn{appearance:none; border:none; cursor:pointer; padding:11px 14px; border-radius:12px; font-weight:700; letter-spacing:.3px; text-decoration:none}
+    .btn.primary{background:linear-gradient(90deg, var(--brand), var(--brand-2)); color:#0a0e1a; box-shadow: 0 6px 16px rgba(108,195,255,.3)}
+    .btn.ghost{background:transparent; color:#dfe6ff; border:1px solid rgba(255,255,255,.12)}
+
+    .photos{display:grid; gap:16px}
+    .photo{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); height:300px; display:grid; place-items:center; overflow:hidden; position:relative; box-shadow:var(--shadow)}
+    .photo img{width:100%; height:100%; object-fit:cover; display:block}
+    .photo label{position:absolute; bottom:10px; right:10px; font-size:12px; color:#cbd4f4; background:rgba(0,0,0,.35); padding:6px 8px; border-radius:10px; border:1px solid rgba(255,255,255,.1)}
+
+    .grid{display:grid; grid-template-columns: 1fr 1fr; gap:24px; margin-top:28px}
+    .card{background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow)}
+    .card h2{margin:0 0 10px; font-size:20px}
+    .card p, .card li, .meta{color:#d6ddf8}
+
+    .two-col{columns:2; column-gap:18px}
+    .two-col p, .two-col ul{break-inside:avoid}
+
+    .timeline{position:relative; padding-left:18px}
+    .timeline:before{content:""; position:absolute; left:7px; top:0; bottom:0; width:2px; background: linear-gradient(180deg, var(--brand), transparent)}
+    .tl-item{position:relative; margin:12px 0}
+    .tl-item:before{content:""; position:absolute; left:-3px; top:6px; width:10px; height:10px; border-radius:50%; background:var(--accent); box-shadow:0 0 0 6px rgba(36,231,194,.12)}
+    .tl-item .when{font-weight:700; color:#eaf0ff; margin-bottom:4px}
+    .tl-item .what{color:#cfd7f2}
+
+    .links a{color:#9fd3ff; text-decoration:none; border-bottom:1px dashed rgba(159,211,255,.5)}
+
+    footer{margin-top:28px; color:#aab2cf; font-size:13px; text-align:center}
+
+    @media (max-width: 950px){
+      .hero{grid-template-columns: 1fr}
+      .photos{grid-template-columns: 1fr 1fr}
+    }
+    @media (max-width: 720px){
+      .grid{grid-template-columns: 1fr}
+      h1{font-size:32px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="tag"><span class="dot"></span> 個人簡介｜Professional Profile</div>
+        <h1>林育英 <span style="opacity:.85; font-weight:600">｜企劃・整合行銷・在地創生</span></h1>
+        <p class="subtitle">1987.03.12｜已婚｜高雄市左營區｜雙魚座（理性派）</p>
+        <div class="quick">
+          <span class="chip">大型活動企劃</span>
+          <span class="chip">產官學專案協作</span>
+          <span class="chip">在地創生／返鄉深耕</span>
+          <span class="chip">整合行銷策略</span>
+        </div>
+        <div class="cta">
+          <a class="btn primary" href="#experience">查看經歷</a>
+          <a class="btn ghost" href="#projects">專案成果</a>
+        </div>
+        <div id="experience" style="display:grid; grid-template-columns: 1fr 1fr; gap:20px; margin-top:20px">
+          <div>
+            <h2>學歷</h2>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="when">2014｜國立屏東科技大學 資訊管理系 研究所畢</div>
+                <div class="what">論文主題：以組織資訊科技能力探討知識吸收能力對開放式創新的影響</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2>經歷</h2>
+            <div class="timeline">
+              <div class="tl-item"><div class="when">2014</div><div class="what">諾貝爾文教機構｜英語啟蒙師</div></div>
+              <div class="tl-item"><div class="when">2015</div><div class="what">產學小聯盟 研究專員（高雄軟體園區）</div></div>
+              <div class="tl-item"><div class="when">2016</div><div class="what">政府培訓專案計畫</div></div>
+              <div class="tl-item"><div class="when">2017</div><div class="what">創業輔導計畫</div></div>
+              <div class="tl-item"><div class="when">2019</div><div class="what">返鄉深耕・在地創生計畫（高雄）</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="photos">
+        <figure class="photo">
+          <img id="photo1" src="https://lh3.googleusercontent.com/d/1w2WmfbmWVqQQYj6tzX8-VK6hnIdGs0bl" />
+          <label>照片區塊 A</label>
+        </figure>
+        <figure class="photo">
+          <img id="https://lh3.googleusercontent.com/d/1N0vRRwFYrW_eP005Ty_8ahWp00I3AvN8"  />
+          <label>照片區塊 B</label>
+        </figure>
+      </div>
+    </section>
+
+    <section class="grid" style="margin-top:28px">
+      <article class="card">
+        <h2 id="about">關於我</h2>
+        <p>具備資訊管理背景與多年企劃／整合行銷經驗，擅長跨部門協作、活動企劃與在地產業串聯。返鄉深耕高雄，致力於以專業促進地方產業與文化發展。</p>
+      </article>
+      <article class="card">
+        <h2>個人特色</h2>
+        <ul>
+          <li>將興趣轉化為專業：推動讀書會、說書、手作課與戶外活動等主題企劃。</li>
+          <li>在地創生視角：支持小農經濟、海洋文化、觀光與城市品牌提案。</li>
+          <li>重視系統化執行與量化成果，確保專案落地與持續優化。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="grid" id="projects">
+      <article class="card">
+        <h2>專案與貢獻（擇要）</h2>
+        <ul>
+          <li>科技部專題研究企劃</li>
+          <li>中華文化產業交流、兩岸參訪交流、客委會海外參訪</li>
+          <li>台中花博志工培訓案、小農經濟發展案</li>
+          <li>高雄市母親節活動（2021）、雲嘉南水晶教堂活動（2021）</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>研究與興趣</h2>
+        <div class="two-col">
+          <p>返鄉深耕，愛我高雄：聚焦亞洲新灣區與城市品牌行銷，包括海洋文化與流行音樂中心、高雄港旅運中心、市立總圖、世界貿易展覽中心與環狀輕軌等。</p>
+          <p>產業面向：以高雄市梓官區漁會與在地海鮮供應鏈為案例，結合城市媒體與數位行銷，探索地方產業加值策略。</p>
+          <div class="links">
+            <p>參考連結：
+              <a href="https://www.104.com.tw/company/dbpzjjs?jobsource=pda">104 公司頁</a>、
+              <a href="https://www.fishermart.com.tw/page/4885">Fishermart</a>
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>講座 / 教學 / 社群</h2>
+        <ul>
+          <li>實體讀書會、企業內訓、畫展與手作課、說書</li>
+          <li>戶外活動企劃：「百人咚滋」、「高雄玩很大」等</li>
+          <li>社團經歷：高雄婚慶副秘書、博愛青商禮賓</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>聯絡方式</h2>
+        <p>（請自行補上聯絡資訊：Email、手機、社群連結或 QR Code）</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> 林育英｜個人簡介。
+  </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

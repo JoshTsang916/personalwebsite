@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>林育英｜企劃與整合行銷｜專業個人簡介</title>
-  <meta name="description" content="林育英—企劃與整合行銷、在地創生與大型活動企劃。專業年表、專案成果與研究興趣。" />
+  <title>Grace Lin｜企劃與整合行銷｜個人專業簡介</title>
+  <meta name="description" content="Grace Lin—企劃與整合行銷、在地創生與大型活動企劃。專業年表、專案成果與研究興趣。" />
   <style>
     :root{
       --bg:#0f1220; --card:#171b2f; --muted:#aeb6d3; --text:#eef2ff;
@@ -15,7 +15,7 @@
     body{margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC","PingFang TC","Hiragino Sans","Microsoft JhengHei",Arial,sans-serif; background: radial-gradient(1200px 800px at 20% -10%, rgba(108,195,255,.15), transparent 60%), radial-gradient(1000px 700px at 120% 10%, rgba(157,123,255,.18), transparent 60%), linear-gradient(180deg, #0c0f1a, #0f1220 60%); color:var(--text); letter-spacing:.2px}
     .wrap{max-width:1200px; margin:0 auto; padding:28px 22px 80px}
 
-    .hero{display:grid; grid-template-columns: 1fr .9fr; gap:28px; align-items:start}
+    .hero{display:block}
     .hero-card{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow); position:relative; overflow:hidden}
     .hero-card:before{content:""; position:absolute; inset:-2px; background: conic-gradient(from 180deg, rgba(108,195,255,.12), rgba(157,123,255,.12), rgba(36,231,194,.12), rgba(108,195,255,.12)); filter: blur(40px); opacity:.32; z-index:0}
     .hero-card>*{position:relative; z-index:1}
@@ -33,11 +33,6 @@
     .btn{appearance:none; border:none; cursor:pointer; padding:11px 14px; border-radius:12px; font-weight:700; letter-spacing:.3px; text-decoration:none}
     .btn.primary{background:linear-gradient(90deg, var(--brand), var(--brand-2)); color:#0a0e1a; box-shadow: 0 6px 16px rgba(108,195,255,.3)}
     .btn.ghost{background:transparent; color:#dfe6ff; border:1px solid rgba(255,255,255,.12)}
-
-    .photos{display:grid; gap:16px}
-    .photo{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); height:300px; display:grid; place-items:center; overflow:hidden; position:relative; box-shadow:var(--shadow)}
-    .photo img{width:100%; height:100%; object-fit:cover; display:block}
-    .photo label{position:absolute; bottom:10px; right:10px; font-size:12px; color:#cbd4f4; background:rgba(0,0,0,.35); padding:6px 8px; border-radius:10px; border:1px solid rgba(255,255,255,.1)}
 
     .grid{display:grid; grid-template-columns: 1fr 1fr; gap:24px; margin-top:28px}
     .card{background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow)}
@@ -58,10 +53,6 @@
 
     footer{margin-top:28px; color:#aab2cf; font-size:13px; text-align:center}
 
-    @media (max-width: 950px){
-      .hero{grid-template-columns: 1fr}
-      .photos{grid-template-columns: 1fr 1fr}
-    }
     @media (max-width: 720px){
       .grid{grid-template-columns: 1fr}
       h1{font-size:32px}
@@ -73,8 +64,8 @@
     <section class="hero">
       <div class="hero-card">
         <div class="tag"><span class="dot"></span> 個人簡介｜Professional Profile</div>
-        <h1>林育英 <span style="opacity:.85; font-weight:600">｜企劃・整合行銷・在地創生</span></h1>
-        <p class="subtitle">1987.03.12｜已婚｜高雄市左營區｜雙魚座（理性派）</p>
+        <h1>Grace Lin <span style="opacity:.85; font-weight:600">｜企劃・整合行銷・在地創生</span></h1>
+        <p class="subtitle">高雄市左營區｜雙魚座（理性派）</p>
         <div class="quick">
           <span class="chip">大型活動企劃</span>
           <span class="chip">產官學專案協作</span>
@@ -106,16 +97,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="photos">
-        <figure class="photo">
-          <img id="photo1" src="https://lh3.googleusercontent.com/d/1w2WmfbmWVqQQYj6tzX8-VK6hnIdGs0bl" />
-          <label>照片區塊 A</label>
-        </figure>
-        <figure class="photo">
-          <img id="https://lh3.googleusercontent.com/d/1N0vRRwFYrW_eP005Ty_8ahWp00I3AvN8"  />
-          <label>照片區塊 B</label>
-        </figure>
       </div>
     </section>
 
@@ -149,12 +130,6 @@
         <div class="two-col">
           <p>返鄉深耕，愛我高雄：聚焦亞洲新灣區與城市品牌行銷，包括海洋文化與流行音樂中心、高雄港旅運中心、市立總圖、世界貿易展覽中心與環狀輕軌等。</p>
           <p>產業面向：以高雄市梓官區漁會與在地海鮮供應鏈為案例，結合城市媒體與數位行銷，探索地方產業加值策略。</p>
-          <div class="links">
-            <p>參考連結：
-              <a href="https://www.104.com.tw/company/dbpzjjs?jobsource=pda">104 公司頁</a>、
-              <a href="https://www.fishermart.com.tw/page/4885">Fishermart</a>
-            </p>
-          </div>
         </div>
       </article>
     </section>
@@ -170,13 +145,13 @@
       </article>
       <article class="card">
         <h2>聯絡方式</h2>
-        <p>（請自行補上聯絡資訊：Email、手機、社群連結或 QR Code）</p>
+        <p>（待補上聯絡資訊）</p>
       </article>
     </section>
   </main>
 
   <footer>
-    © <span id="y"></span> 林育英｜個人簡介。
+    © <span id="y"></span> Grace Lin｜個人簡介
   </footer>
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
